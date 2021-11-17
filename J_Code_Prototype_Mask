@@ -1,0 +1,14 @@
+input.onButtonPressed(Button.A, function () {
+    //when button A is pressed code will happen
+	
+})
+radio.setGroup(1)
+basic.forever(function () {
+    if (pins.digitalReadPin(DigitalPin.P0) == 0) {
+        servos.P0.setAngle(0)
+        //if pin is disconnected set the servo to 0 degrees 
+    } else {
+        servos.P0.setAngle(180)
+        //if pin is connected turn servo 180 degrees
+    }
+})
