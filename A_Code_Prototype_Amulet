@@ -1,0 +1,17 @@
+// When the A button is pressed, the servo turns to the 180 degree position
+// and displays the letter A to confirm that it's working.
+// This code is used to slap the weight off the side of the table (The function).
+input.onButtonPressed(Button.A, function () {
+    basic.showString("A")
+    servos.P0.setAngle(180)
+})
+
+
+
+// When the A and B button are pressed simultaneously, the servo turns to the
+// 0 degree position and displays the letter B to confirm that it's working.
+// This is used as a reset button for testing.
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("B")
+    servos.P0.setAngle(0)
+})
