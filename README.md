@@ -1,5 +1,5 @@
 # AET Project 2 Microkiss
- Team Members: Victoria Porter & Amelia Lewey
+ Team Members: Victoria Porter, Amelia Lewey, & John Yoon
 
  In this project, we wanted to recreate the iconic scene in Princess and
  the Frog with the very simple options that the servos provided. We could
